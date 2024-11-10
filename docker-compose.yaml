@@ -17,7 +17,7 @@ services:
       - ./:/app/
       - ~/.config/gcloud/:/home/${USER_NAME:-kyuksel}/.config/gcloud
     ports:
-      - 8080:8080
+      - 8888:8888
 
     ipc: host
     init: true
